@@ -403,7 +403,11 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-
+@media (max-width: 576px){
+.modal-content{
+  width: 90vw;
+}
+}
 @media (max-width: 992px) {
   h2 , h4 , p {
     text-align: center;
@@ -424,9 +428,7 @@ a {
   .img-div{
     padding-top: 100px;
   }
-  .modal-content{
-    width: 400px;
-  }
+  
   .name{
     margin-top: -20px;
     flex-wrap: wrap;
