@@ -3,8 +3,9 @@ $(document).ready(function(){
 
         var image = $(this).data('image');
         $('.card-select div').removeClass('active');
+     
+        $('.project-img img').attr('src', image).show();
         $(this).addClass('active')
-        $('.project-img img').attr('src', image).show(); // Show image for clicked card
     });
 
    

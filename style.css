@@ -327,8 +327,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.card-selection {
-}
+
 .project-cards {
   background-color: #f6f6f6;
   height: 33%;
@@ -387,6 +386,7 @@ a {
 .cards-container {
   width: 100%;
   margin-left: 16%;
+  margin-bottom: 150px;
   overflow: hidden;
 }
 .slider {
@@ -399,7 +399,7 @@ a {
 /* dotted circle  */
 
 .dots-div{
-
+  margin-top: -120px;
   margin-left: 15%;
   width: 120px;  
   display: flex;
