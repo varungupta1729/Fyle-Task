@@ -36,7 +36,7 @@ $(document).ready(function(){
         }
     });
 
-    // Trigger the input event on page load to handle pre-filled inputs
+    // trigger the input event on page load to handle pre-filled inputs
     $('input[type="text"], input[type="email"]').each(function() {
         $(this).trigger('input');
     });
@@ -107,15 +107,15 @@ let svgs = ['#svg1', '#svg2', '#svg3'];
 let index = 0;
 
 function swapSVGs() {
-    // Swap the first SVG with the one at the current index
+    // swap the first SVG with the one at the current index
     if (index >= svgs.length ) {
         index = 0;
     }
 
-    // Remove all SVG content
+    // remove all SVG content
     $('.svg-item').empty();
 
-    // Add the SVG content based on the current index
+    // add the SVG content based on the current index
     switch (index) {
         case 2:
             $('#svg1').html('<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><defs><style>.a1, .d1 { fill: none; } .a1 { stroke: #ff3147; } .b1 { fill: #ff3147; } .c1 { stroke: none; }</style></defs><g transform="translate(-375 -1837)"><g class="a1" transform="translate(375 1837)"><circle class="c1" cx="15" cy="15" r="15" /><circle class="d1" cx="15" cy="15" r="14.5" /></g><circle class="b1" cx="4" cy="4" r="4" transform="translate(386 1848)" /></g></svg>');
