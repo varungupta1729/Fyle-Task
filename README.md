@@ -6,12 +6,12 @@ This project is a fully responsive website designed and implemented according to
 
 ## Features
 
-- **Responsive Design:** The website is designed to be fully responsive.
-- **Contact Us Form:** Clicking on the "Contact Us" button opens a pop-up form. Upon submission, the information is sent via a POST API call to getform.io.
-- **Carousel:** Implemented a carousel where hovering over images changes the displayed content. The carousel also includes cards that move left to right, with dots changing accordingly. The "Read More" button redirects to fylehq.com in a new tab.
-- **Project Section:** Images in this section change dynamically according to the side content displayed.<br> **Note** - Images take time to load when click on side content
-- **Growth Section:** Cards in this section have a hovering effect as specified in the task.
-- **Hosting:** The website is hosted on GitHub Pages for easy access.
+- [x] **Responsive Design:** The website is designed to be fully responsive.
+- [x] **Contact Us Form:** Clicking on the "Contact Us" button opens a pop-up form. Upon submission, the information is sent via a POST API call to getform.io.
+- [x] **Carousel:** Implemented a carousel where hovering over images changes the displayed content. The carousel also includes cards that move left to right, with dots changing accordingly. The "Read More" button redirects to fylehq.com in a new tab.
+- [x] **Project Section:** Images in this section change dynamically according to the side content displayed.<br> **Note** - Images take time to load when click on side content
+- [x] **Growth Section:** Cards in this section have a hovering effect as specified in the task.
+- [x] **Hosting:** The website is hosted on GitHub Pages for easy access.
 
 ## Usage
 
