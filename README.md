@@ -35,6 +35,14 @@ To set up the project locally, follow these steps:
 - [getform.io](https://getform.io/) (for form submission)
 - GitHub Pages (for hosting)
 
+## UI Design
+
+You can view the UI design of the give task [here](https://xd.adobe.com/view/62beadb2-fac2-491b-90d9-5bc90d77ae70-37ed/specs/).
+
+## Requirement Features
+
+You can find the detailed list of requirement features of task [here](https://fyleuniverse.notion.site/Web-developer-assignment-8705a516d60b45a2a3f59a16e8cc7b20#ba5269e3bbc048d394214efa61ff6934).
+
 
 ## Credits
 
