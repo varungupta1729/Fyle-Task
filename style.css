@@ -266,12 +266,15 @@ a {
 }
 .svg-growth {
   display: inline;
-
   height: 40px;
+}
+.small-card-growth p{
+  font-weight: 400;
 }
 .growth-heading {
   margin-top: 20px;
   font-size: 2.5rem;
+  font-weight: 500;
 }
 
 /* <!-- FeedBack section start --> */
@@ -402,7 +405,22 @@ a {
 }
 
 @media (max-width: 992px) {
- 
+  h2 , h4 , p {
+    text-align: center;
+  }
+  svg{
+    text-align: center;
+  }
+  .svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .img-div{
     padding-top: 100px;
   }
