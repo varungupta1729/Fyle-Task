@@ -1,3 +1,4 @@
+// All Funtionalities are working sir only its taking time to load images while selecting 
 $(document).ready(function(){
     $('.project-cards').click(function(){
 
